@@ -1,0 +1,16 @@
+
+for java
+
+{
+	"shell_cmd": "javac $file && java $file_base_name"
+}
+
+
+for python
+
+{
+ "cmd": ["#pyhton application path in your system", "$file"],
+ "selector": "source.python",
+ "file_regex": "file \"(...*?)\", line([0-9]+)"
+}
+
